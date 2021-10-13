@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button onclick="jogar(0)">Pedra</button>
+    <button onclick="jogar(1)">Papel</button>
+    <button onclick="jogar(2)">Tesoura</button>
+    <div class="imgs">
+      <img src="imgs/papel.jpg" alt="" id="my-img">
+      <div>Vs</div>
+      <img src="imgs/interrogacao.png" alt="" id="ad-img">
+    </div>
+    <div id="resultado"></div>
+
+    <h3> <b>Seu Placar: </b></h3>
+    <div>Player: <span id="my-pts">0</span></div>
+    <div>Inimigo: <span id="ad-pts">0</span></div>   
+    
+<script src="script.js"></script>
+</body>
+</html>

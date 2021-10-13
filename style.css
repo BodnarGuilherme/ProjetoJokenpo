@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+    color: #eee
+}
+
+h3 {
+    color: whitesmoke;
+}
+
+img{
+  height: 100px;
+  text-align: center;
+}
+
+.imgs div {
+  color: #eee
+}
+
+#my-img {
+  transform: scaleY(-100%)
+}
